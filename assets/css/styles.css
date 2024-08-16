@@ -239,3 +239,15 @@ img {
     color: #0D0D0D; /* Very Dark Gray/Black */
 }
 
+/* Intro Section */
+.intro {
+    grid-area: intro;
+    background-color: #0D0D0D; /* Very Dark Gray/Black */
+    color: #E0E0E0; /* Lighter Silver */
+    padding: 2rem;
+    text-align: center;
+}
+
+.intro p {
+    font-size: 120%;
+}
