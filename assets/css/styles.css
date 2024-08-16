@@ -664,7 +664,7 @@ form label {
     grid-area: signup;
     background-color: #1d1d1d;
     color: #E0E0E0; /* Lighter Silver */
-    max-width: 500px;
+    max-width: 650px;
     margin: 10px auto;
     padding: 2rem;
     text-align: center;
@@ -770,7 +770,7 @@ form label {
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
     text-align: center;
-    max-width: 600px;
+    max-width: 650px;
     margin: 50px auto;
 }
 
@@ -948,6 +948,6 @@ footer {
 @media (min-width: 1150px) {
     /* Contact Page Media Queries */
     .contact-form input, .contact-form textarea {
-        margin-left: 165px;
+        margin-left: 170px;
     }
 }
