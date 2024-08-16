@@ -169,3 +169,13 @@ nav {
     gap: 8px;
     padding: 8px;
 }
+
+/* General Section Styles */
+.intro,
+.memberships,
+.classes,
+.google-map,
+img {
+    width: 100vw;
+    height: auto;
+}
