@@ -669,6 +669,17 @@ form label {
     overflow: hidden;
 }
 
+.sign-up-form input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #E0E0E0; /* Lighter Silver */
+    border-radius: 5px;
+    background-color: #1d1d1d;
+    color: #E0E0E0; /* Lighter Silver */
+    font-family: 'Open Sans', 'Arial', 'sans-serif';
+}
+
 /* Footer Styles */
 footer {
     grid-area: footer;
