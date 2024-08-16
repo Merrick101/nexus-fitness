@@ -948,6 +948,6 @@ footer {
 @media (min-width: 1150px) {
     /* Contact Page Media Queries */
     .contact-form input, .contact-form textarea {
-        margin-left: 150px;
+        margin-left: 165px;
     }
 }
