@@ -657,7 +657,7 @@ form label {
     color: #FFD700; /* Gold for more visibility */
 }
 
-/* Form */
+/* Sign Up Form */
 .sign-up-form {
     grid-area: signup;
     background-color: #1d1d1d;
@@ -756,6 +756,19 @@ form label {
     text-align: left;
 }
 
+/* Class Booking Form */
+.book-class {
+    grid-area: booking;
+    background-color: #1d1d1d;
+    color: #E0E0E0;
+    padding: 2rem;
+    margin-top: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    max-width: 600px;
+    margin: 50px auto;
+}
 
 /* Footer Styles */
 footer {
