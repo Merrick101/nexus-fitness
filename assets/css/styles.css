@@ -510,6 +510,19 @@ img {
     border-radius: 5px;
 }
 
+.main-class-card h3 {
+    font-size: 1.25rem;
+    color: #FFD700; /* Gold */
+    margin-top: 0.5rem;
+}
+
+.main-class-card p {
+    font-size: 1rem;
+    color: #E0E0E0; /* Lighter Silver */
+    margin-top: 0.5rem;
+    flex-grow: 1; /* Take up remaining space */
+}
+
 
 /* Footer Styles */
 footer {
