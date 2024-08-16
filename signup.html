@@ -57,7 +57,7 @@
 
             <section class="sign-up-form">
                 <h2 class="form-hidden-heading">Sign Up</h2>
-                <form action="#" method="get">
+                <form action="#" method="POST">
                     <label for="name">Name:</label>
                     <input type="text" id="name" name="name" required>
                     <label for="email">Email:</label>
@@ -66,6 +66,7 @@
                     <input type="tel" id="phone" name="phone" required>
                     <label for="membership">Membership Plan:</label>
                     <select id="membership" name="membership" required>
+                        <option value="" disabled selected>Select a Membership Plan</option>
                         <option value="basic">Basic</option>
                         <option value="premium">Premium</option>
                         <option value="vip">VIP</option>
@@ -128,9 +129,10 @@
 
             <section id="book-class">
                 <h2>Book a Class</h2>
-                <form action="#" method="get">
+                <form action="#" method="POST">
                     <label for="class-type">Class Type:</label>
                     <select id="class-type" name="class-type" required>
+                        <option value="" disabled selected>Select a Class Type</option>
                         <option value="yoga">Yoga</option>
                         <option value="weightlifting">Weightlifting</option>
                         <option value="boxing">Boxing</option>
@@ -141,6 +143,7 @@
 
                     <label for="class-time">Time:</label>
                     <select id="class-time" name="class-time" required>
+                        <option value="" disabled selected>Select a Time</option>
                         <option value="09:30">09:30 AM - 10:30 AM</option>
                         <option value="10:30">10:30 AM - 11:30 AM</option>
                         <option value="17:30">05:30 PM - 06:30 PM</option>
