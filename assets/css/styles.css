@@ -733,6 +733,29 @@ form label {
     table-layout: auto;
 }
 
+.sign-up-membership-table th,
+.sign-up-membership-table td {
+    border: 1px solid #E0E0E0;
+    padding: 15px;
+    text-align: center;
+}
+
+.sign-up-membership-table th {
+    background-color: #1d1d1d;
+    color: #FFD700; /* Gold */
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.sign-up-membership-table td {
+    background-color: #282828;
+    color: #E0E0E0;
+}
+
+.sign-up-membership-table td:first-child {
+    text-align: left;
+}
+
 
 /* Footer Styles */
 footer {
