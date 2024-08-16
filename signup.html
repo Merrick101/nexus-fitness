@@ -56,22 +56,22 @@
             </div>
 
             <section class="sign-up-form">
-                <form action="#">
+                <form action="#" method="POST">
                     <label for="name">Name:</label>
-                    <input type="text" id="name" name="name">
+                    <input type="text" id="name" name="name" required>
                     <label for="email">Email:</label>
-                    <input type="email" id="email" name="email">
+                    <input type="email" id="email" name="email" required>
                     <label for="phone">Phone:</label>
-                    <input type="tel" id="phone" name="phone">
+                    <input type="tel" id="phone" name="phone" required>
                     <label for="membership">Membership Plan:</label>
-                    <select id="membership" name="membership">
+                    <select id="membership" name="membership" required>
                         <option value="basic">Basic</option>
                         <option value="premium">Premium</option>
                         <option value="vip">VIP</option>
                     </select>
                     <label for="payment">Payment Info:</label>
-                    <input type="text" id="payment" name="payment">
-                    <input type="checkbox" id="terms" name="terms">
+                    <input type="text" id="payment" name="payment" required>
+                    <input type="checkbox" id="terms" name="terms" required>
                     <label for="terms">Agree to Terms</label>
                     <button type="submit" class="sign-up-submit-btn">Submit</button>
                 </form>
@@ -127,19 +127,19 @@
 
             <section class="book-class">
                 <h2>Book a Class</h2>
-                <form action="#">
+                <form action="#" method="POST">
                     <label for="class-type">Class Type:</label>
-                    <select id="class-type" name="class-type">
+                    <select id="class-type" name="class-type" required>
                         <option value="yoga">Yoga</option>
                         <option value="weightlifting">Weightlifting</option>
                         <option value="boxing">Boxing</option>
                     </select>
 
                     <label for="class-date">Date:</label>
-                    <input type="date" id="class-date" name="class-date">
+                    <input type="date" id="class-date" name="class-date" required>
 
                     <label for="class-time">Time:</label>
-                    <select id="class-time" name="class-time">
+                    <select id="class-time" name="class-time" required>
                         <option value="09:30">09:30 AM - 10:30 AM</option>
                         <option value="10:30">10:30 AM - 11:30 AM</option>
                         <option value="17:30">05:30 PM - 06:30 PM</option>
