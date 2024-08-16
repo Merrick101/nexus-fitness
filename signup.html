@@ -52,8 +52,30 @@
         <main>
             <div class="sign-up-intro">
                 <h2>Join Nexus Fitness</h2>
-                  <p>Sign up for a membership plan today and start your fitness journey with us.</p>
+                <p>Sign up for a membership plan today and start your fitness journey with us.</p>
             </div>
+
+            <section class="sign-up-form">
+                <form action="#">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email">
+                    <label for="phone">Phone:</label>
+                    <input type="tel" id="phone" name="phone">
+                    <label for="membership">Membership Plan:</label>
+                    <select id="membership" name="membership">
+                        <option value="basic">Basic</option>
+                        <option value="premium">Premium</option>
+                        <option value="vip">VIP</option>
+                    </select>
+                    <label for="payment">Payment Info:</label>
+                    <input type="text" id="payment" name="payment">
+                    <input type="checkbox" id="terms" name="terms">
+                    <label for="terms">Agree to Terms</label>
+                    <button type="submit" class="sign-up-submit-btn">Submit</button>
+                </form>
+            </section>
         </main>
 
         <footer>
