@@ -680,6 +680,10 @@ form label {
     font-family: 'Open Sans', 'Arial', 'sans-serif';
 }
 
+#terms {
+    display: none; /* Hides checkbox */
+}
+
 /* Footer Styles */
 footer {
     grid-area: footer;
