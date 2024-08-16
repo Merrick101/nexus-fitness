@@ -185,7 +185,7 @@ img {
     grid-area: hero;
     position: relative;
     background-color: #0D0D0D; /* Very Dark Gray/Black */
-    background: url('assets/images/index/hero-index.png') no-repeat center center/cover;
+    background: url("assets/images/index/hero-index.png") no-repeat center center/cover;
     color: #E0E0E0; /* Lighter Silver */
     overflow: hidden; /* Ensure content stays within the hero section */
     min-height: 500px;
