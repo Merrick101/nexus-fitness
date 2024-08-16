@@ -84,3 +84,14 @@ header {
     color: #E0E0E0; /* Lighter Silver */
     box-shadow: 0 2px 1px #E0E0E0; /* Lighter Silver */
 }
+
+.hidden-heading {
+    display: none;
+}
+
+.header-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
