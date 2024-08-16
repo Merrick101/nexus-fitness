@@ -640,6 +640,7 @@ form label {
     max-width: 100vw;
 }
 
+/* Intro */
 .sign-up-intro {
     grid-area: intro;
     background-color: #0D0D0D; /* Very Dark Gray/Black */
@@ -656,6 +657,7 @@ form label {
     color: #FFD700; /* Gold for more visibility */
 }
 
+/* Form */
 .sign-up-form {
     grid-area: signup;
     background-color: #1d1d1d;
@@ -703,6 +705,33 @@ form label {
     background-color: #DAA520; /* Goldenrod */
 }
 
+/* Membership Table */
+.sign-up-memberships {
+    grid-area: membership;
+    margin: 25px auto;
+    background-color: #0D0D0D; /* Very Dark Gray/Black */
+    color: #E0E0E0; /* Lighter Silver */
+    padding: 2rem;
+    text-align: center;
+    width: 100vw;
+    overflow-x: auto;
+}
+
+.sign-up-memberships h2 {
+    font-size: 1.9rem;
+    margin-bottom: 1.1rem;
+    font-weight: 800;
+    letter-spacing: 1px;
+    text-align: center;
+    color: #FFD700; /* Gold for more visibility */   
+}
+
+.sign-up-membership-table {
+    border-collapse: collapse;
+    width: 100%;
+    margin: 0 auto;
+    table-layout: auto;
+}
 
 
 /* Footer Styles */
