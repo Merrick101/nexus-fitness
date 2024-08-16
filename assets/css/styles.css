@@ -548,6 +548,8 @@ img {
 .contact-container {
     display: grid;
     grid-template-columns: 1fr;
+    grid-template-rows: 1fr auto; /* Add auto to footer */
+    min-height: 100vh; /* Ensures grid occupies full height */
     grid-template-areas:
         "header"
         "contact"
@@ -613,6 +615,10 @@ form label {
     display: block;
     margin: 10px 0;
     font-size: 0.9rem;
+}
+
+.contact-details {
+    text-align: center;
 }
 
 /* End Of Contact Page */
