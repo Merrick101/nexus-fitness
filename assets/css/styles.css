@@ -439,3 +439,36 @@ img {
     border: 0;
 }
 /* End Of Home Page */
+
+/* Footer Styles */
+footer {
+    grid-area: footer;
+    background-color: #0D0D0D; /* Very Dark Gray/Black */
+    color: #E0E0E0; /* Lighter Silver */
+    box-shadow: 0px -2px 1px #E0E0E0; /* Lighter Silver */
+    padding: 2rem;
+    text-align: center;
+    display: flex;
+    gap: 14px;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+/* Social Media Icons */
+#social-media {
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+    list-style-type: none;
+}
+
+#social-media i {
+    font-size: 1.6em;
+    color: #E0E0E0; /* Lighter Silver */
+}
+
+#social-media i:hover {
+    color: #FFD700; /* Gold */
+}
