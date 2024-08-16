@@ -501,3 +501,22 @@ footer {
         min-width: 85vw;
     }   
 }
+
+@media (min-width: 768px) {
+    .container {
+        padding: 10px;
+    }
+
+    nav {
+        display: block;
+    }
+
+    .menu-toggle-label {
+        display: none; /* Hide hamburger icon on larger screens */
+    }
+
+    #nav-menu {
+        flex-direction: row;
+        gap: 16px;
+    }
+}
