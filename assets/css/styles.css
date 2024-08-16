@@ -499,7 +499,17 @@ footer {
 @media (min-width: 500px) {
     .main-class-card {
         min-width: 85vw;
-    }   
+    }
+}
+
+@media (min-width: 580px) {
+    classes.grid {
+        flex-direction: column;
+    }
+
+    .class-card {
+        min-width: 80vw;
+    }
 }
 
 @media (min-width: 768px) {
@@ -518,5 +528,16 @@ footer {
     #nav-menu {
         flex-direction: row;
         gap: 16px;
+    }
+}
+
+@media (min-width: 769px) {
+    .classes-grid {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .class-card {
+        min-width: 80vw;
     }
 }
