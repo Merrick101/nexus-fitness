@@ -565,7 +565,8 @@ img {
     background-color: #0D0D0D; /* Very Dark Gray/Black */
     background: url("../images/other/nexus-03.png") no-repeat center center/cover;
     color: #E0E0E0; /* Lighter Silver */
-    max-width: 500px;
+    width: 80vw;
+    height: 80vh;
     margin: 60px auto;
     padding: 2rem;
     text-align: center;
