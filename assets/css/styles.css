@@ -416,3 +416,26 @@ img {
     background-color: #282828;
     color: #E0E0E0;
 }
+
+/* Google Maps Styles */
+.google-map {
+    grid-area: google-map;
+    background-color: #0D0D0D; /* Very Dark Gray/Black */
+    color: #E0E0E0; /* Lighter Silver */
+    padding: 2rem;
+    text-align: center;
+}
+
+.map-container {
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+    padding-top: 1rem;
+    overflow: hidden;
+}
+
+.map-container iframe {
+    width: 100%;
+    border: 0;
+}
+/* End Of Home Page */
