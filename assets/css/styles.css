@@ -491,6 +491,24 @@ img {
 }
 
 /* Second Div */
+.main-class-card {
+    background-color: #1d1d1d;
+    padding: 1rem;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    width: 100%;
+    max-width: 400px; /* Ensure cards don’t get too wide */
+    margin: 0 auto; /* Center the cards */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.main-class-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
 
 
 /* Footer Styles */
