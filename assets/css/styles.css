@@ -666,6 +666,10 @@ form label {
     color: #FFD700; /* Gold for more visibility */
 }
 
+.form-hidden-heading {
+    display: none;
+}
+
 /* Sign Up Form */
 .sign-up-form {
     grid-area: signup;
