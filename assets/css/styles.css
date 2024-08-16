@@ -759,7 +759,7 @@ form label {
 }
 
 /* Class Booking Form */
-.book-class {
+#book-class {
     grid-area: booking;
     background-color: #1d1d1d;
     color: #E0E0E0;
@@ -772,26 +772,26 @@ form label {
     margin: 50px auto;
 }
 
-.book-class h2 {
+#book-class h2 {
     font-size: 1.7rem;
     color: #FFD700;
     margin-bottom: 1rem;
 }
 
-.book-class form {
+#book-class form {
     display: flex;
     flex-direction: column;
     gap: 1rem;
 }
 
-.book-class label {
+#book-class label {
     font-size: 1rem;
     color: #E0E0E0;
     text-align: left;
 }
 
-.book-class select,
-.book-class input {
+#book-class select,
+#book-class input {
     padding: 0.5rem;
     border-radius: 4px;
     border: 1px solid #333;
