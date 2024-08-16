@@ -438,6 +438,7 @@ img {
     width: 100%;
     border: 0;
 }
+
 /* End Of Home Page */
 
 /* Classes Page */
@@ -540,6 +541,7 @@ img {
     background-color: #DAA520; /* Goldenrod */
     color: #0D0D0D; /* Very Dark Gray/Black */
 }
+
 /* End Of Classes Page */
 
 /* Contact Page */
@@ -555,6 +557,21 @@ img {
     margin: 0 auto;
     max-width: 100vw;
 }
+
+.contact-form-section {
+    grid-area: contact;
+    background-color: #0D0D0D; /* Very Dark Gray/Black */
+    background: url('/assets/images/other/nexus-03.png') no-repeat center center/cover;
+    color: #E0E0E0; /* Lighter Silver */
+    max-width: 500px;
+    margin: 60px auto;
+    padding: 2rem;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+}
+
 
 /* Footer Styles */
 footer {
