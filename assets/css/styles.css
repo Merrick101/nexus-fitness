@@ -473,7 +473,7 @@ footer {
     color: #FFD700; /* Gold */
 }
 
-/* Media Queries */
+/* Home Page Media Queries */
 @media (max-width: 768px) {
     .membership-table th, .membership-table td {
         padding: 10px;
@@ -493,12 +493,6 @@ footer {
 
     .opening-times-table {
         font-size: 0.9rem;
-    }
-}
-
-@media (min-width: 500px) {
-    .main-class-card {
-        min-width: 85vw;
     }
 }
 
@@ -539,5 +533,12 @@ footer {
 
     .class-card {
         min-width: 80vw;
+    }
+}
+
+/* Classes Page Media Queries */
+@media (min-width: 500px) {
+    .main-class-card {
+        min-width: 85vw;
     }
 }
