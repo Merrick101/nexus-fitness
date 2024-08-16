@@ -472,3 +472,26 @@ footer {
 #social-media i:hover {
     color: #FFD700; /* Gold */
 }
+
+/* Media Queries */
+@media (max-width: 768px) {
+    .membership-table th, .membership-table td {
+        padding: 10px;
+    }
+
+    .membership-table {
+        font-size: 0.9rem;
+    }
+
+    .classes-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .opening-times-table th, .opening-times-table td {
+        padding: 10px;
+    }
+
+    .opening-times-table {
+        font-size: 0.9rem;
+    }
+}
