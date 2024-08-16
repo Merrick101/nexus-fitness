@@ -127,3 +127,29 @@ header {
 .menu-toggle-label i:hover {
     color: #FFD700; /* Gold */
 }
+
+/* Navigation Menu */
+nav {
+    display: none;
+}
+
+#nav-menu {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+#nav-menu li a {
+    text-decoration: none;
+    color: #E0E0E0; /* Lighter Silver */
+    white-space: nowrap;
+    padding: 10px;
+    transition: color 0.3s, background-color 0.3s;
+}
+
+#nav-menu li a:hover {
+    background-color: #FFD700; /* Gold */
+    text-decoration: underline;
+    color: #0D0D0D; /* Very Dark Gray/Black */
+}
