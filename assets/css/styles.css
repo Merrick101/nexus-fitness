@@ -684,6 +684,25 @@ form label {
     display: none; /* Hides checkbox */
 }
 
+#membership {
+    background-color: #FFD700;
+}
+
+.sign-up-submit-btn {
+    background-color: #FFD700; /* Gold */
+    color: #0D0D0D; /* Very Dark Gray/Black */
+    padding: 10px;
+    font-weight: 600;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.sign-up-submit-btn:hover {
+    background-color: #DAA520; /* Goldenrod */
+}
+
 /* Footer Styles */
 footer {
     grid-area: footer;
