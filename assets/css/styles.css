@@ -495,3 +495,9 @@ footer {
         font-size: 0.9rem;
     }
 }
+
+@media (min-width: 500px) {
+    .main-class-card {
+        min-width: 85vw;
+    }   
+}
