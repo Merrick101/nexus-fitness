@@ -623,6 +623,13 @@ form label {
     text-align: center;
 }
 
+.contact-details h2 {
+    font-size: 1.7rem;
+    margin-bottom: 1rem;
+    color: #FFD700; /* Gold */
+    font-weight: 700;
+}
+
 /* End Of Contact Page */
 
 /* Sign Up Page */
