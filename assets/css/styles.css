@@ -380,3 +380,39 @@ img {
     background-color: #DAA520; /* Goldenrod */
     color: #0D0D0D; /* Very Dark Gray/Black */
 }
+
+/* Opening Times Section Styles */
+.opening-times {
+    grid-area: opening-times;
+    background-color: #0D0D0D; /* Very Dark Gray/Black */
+    color: #E0E0E0; /* Lighter Silver */
+    padding: 2rem;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.opening-times-table {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+.opening-times-table th,
+.opening-times-table td {
+    border: 1px solid #E0E0E0;
+    padding: 15px;
+    text-align: center;
+    background-color: #1d1d1d; /* Darker background for table */
+}
+
+.opening-times-table th {
+    background-color: #1d1d1d;
+    color: #FFD700; /* Gold */
+    font-weight: bold;
+}
+
+.opening-times-table td {
+    background-color: #282828;
+    color: #E0E0E0;
+}
