@@ -656,6 +656,19 @@ form label {
     color: #FFD700; /* Gold for more visibility */
 }
 
+.sign-up-form {
+    grid-area: signup;
+    background-color: #1d1d1d;
+    color: #E0E0E0; /* Lighter Silver */
+    max-width: 500px;
+    margin: 10px auto;
+    padding: 2rem;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+}
+
 /* Footer Styles */
 footer {
     grid-area: footer;
