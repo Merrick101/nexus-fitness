@@ -179,3 +179,16 @@ img {
     width: 100vw;
     height: auto;
 }
+
+/* Hero Section Styles */
+.hero {
+    grid-area: hero;
+    position: relative;
+    background-color: #0D0D0D; /* Very Dark Gray/Black */
+    background: url('/assets/images/index/hero-index.png') no-repeat center center/cover;
+    color: #E0E0E0; /* Lighter Silver */
+    overflow: hidden; /* Ensure Content Stays Within The Hero Section */
+    min-height: 500px;
+    max-width: 100vw;
+}
+
