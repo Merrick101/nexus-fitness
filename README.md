@@ -1,50 +1,62 @@
-# Project Title
-Nexus Fitness
+# Nexus Fitness
+
 ## Overview
 
 ### Purpose
-A brief description of the project's purpose, what it aims to achieve, and the value it provides to the users.  
-**Guidance:** Begin filling out this section during Phase 1: Ideation & Initial Setup. Clearly articulate the main goal of your project, what it aims to achieve, and how it will provide value to your target audience.
+
+The purpose of Nexus Fitness is to offer a user-friendly, informative, and accessible platform for individuals interested in improving their physical well-being. This website aims to promote different fitness classes (yoga, weightlifting, boxing), along with an overview of the gym facilities. The site helps users make informed decisions about the classes that best fit their fitness goals.
 
 ### Target Audience
-Identify the target audience for your website and explain why this audience will benefit from the project.  
-**Guidance:** Use this section to identify who will benefit from your project and why. This should be informed by your user stories and overall project objectives.
+
+The target audience for Nexus Fitness includes:
+
+Fitness Enthusiasts: Individuals seeking structured fitness classes in yoga, weightlifting, and boxing.
+Beginners: Those looking to explore gym facilities and understand available options in a welcoming and accessible format.
+Health-Conscious Individuals: People interested in integrating regular exercise into their lifestyle. 
 
 ## User Stories
 
 ### Must-Have User Stories
-- **User Story 1:** Briefly describe the must-have feature.  
-  **Acceptance Criteria:** List the criteria that define the successful implementation of this user story.
-- **User Story 2:** Briefly describe the must-have feature.  
-  **Acceptance Criteria:** List the criteria that define the successful implementation of this user story.
 
-(Include all prioritized must-have features)  
-**Guidance:** Draft the user stories during Phase 1: Ideation & Initial Setup and update them as you complete Phase 2: Must User Stories Implementation & Testing. Document each must-have feature here along with its acceptance criteria.
+**User Story 1:**
+- As a user, I want an intuitive navigation menu so I can easily find the information I need.
+- Acceptance Criteria: A navigation bar is present on all pages, allowing users to access sections like "Home," "Classes," and "Contact" with ease.
+
+**User Story 2:**
+- As a user, I want clear information on available fitness classes so I can choose the best options for my fitness goals.
+- Acceptance Criteria: Each class (e.g., yoga, weightlifting, boxing) has a dedicated page with descriptions and images.
 
 ### Should-Have User Stories
-- **User Story 1:** Briefly describe the should-have feature.  
-  **Acceptance Criteria:** List the criteria that define the successful implementation of this user story.
-- **User Story 2:** Briefly describe the should-have feature.  
-  **Acceptance Criteria:** List the criteria that define the successful implementation of this user story.
 
-(Include all prioritized should-have features)  
-**Guidance:** Document the secondary features that you aim to implement in Phase 3: Should User Stories Implementation & Any Advanced Features. Include clear acceptance criteria for each.
+**User Story 1:**
+- As a user, I want to receive confirmation after submitting a contact form to know my submission was successful.
+- Acceptance Criteria: The contact form is set to submit via FormDump, which redirects users to a thank-you page upon submission.
+
+**User Story 2:**
+- As a user, I would like testimonials to see other users' experiences with the gym.
+- Acceptance Criteria: A testimonial section featuring user feedback is present on the homepage.
 
 ### Could-Have User Stories
-- **User Story 1:** Briefly describe the could-have feature.  
-  **Acceptance Criteria:** List the criteria that define the successful implementation of this user story.
-- **User Story 2:** Briefly describe the could-have feature.  
-  **Acceptance Criteria:** List the criteria that define the successful implementation of this user story.
 
-(Include any could-have features considered for future enhancements)  
-**Guidance:** Document any optional features that are nice to have but not essential.
+**User Story 1:** 
+- As a user, I would like a blog section with fitness tips to support my fitness journey.
+- Acceptance Criteria: A blog section includes regularly updated articles about fitness and wellness topics.
+
+**User Story 2:**
+- As a user, I would like the ability to book classes directly through the website.
+- Acceptance Criteria: Each class page includes a "Book Now" button that connects to an external booking system or in-site form.
 
 ## Design Decisions
 
 ### Wireframes
-Include wireframes for key sections of your website.  
-Briefly describe the design choices, including layout, colour schemes, and fonts.  
-**Guidance:** Start this section during Phase 1: Ideation & Initial Setup and update it throughout Phase 2 and Phase 3. Include digital wireframes created in Phase 1. Document the reasoning behind your layout choices, colour schemes, and font selections.
+
+Wireframes were created for key pages (e.g., homepage, classes page, contact page) to ensure a user-centered design approach. The homepage showcases an engaging layout, with a prominent navigation bar and easy access to class options.
+
+**Design Choices:**
+
+- Layout: A clean, minimal layout is used to avoid overwhelming users and maintain focus on content.
+- Color Scheme: High-contrast color schemes are used to enhance readability and accessibility.
+- Fonts: A modern, sans-serif font was selected for readability and visual appeal.
 
 ### Accessibility Considerations
 Discuss how accessibility guidelines were adhered to, including colour contrast and alt text for images.  
