@@ -1,23 +1,22 @@
 # Nexus Fitness
 
+![Nexus Fitness Multi-View](/assets/images/testing/home-multi-viewport.PNG)
+
 ## Overview
 
 ### Purpose
-
 The purpose of Nexus Fitness is to offer a user-friendly, informative, and accessible platform for individuals interested in improving their physical well-being. This website aims to promote different fitness classes (yoga, weightlifting, boxing), along with an overview of the gym facilities. The site helps users make informed decisions about the classes that best fit their fitness goals.
 
 ### Target Audience
-
 The target audience for Nexus Fitness includes:
 
-Fitness Enthusiasts: Individuals seeking structured fitness classes in yoga, weightlifting, and boxing.
-Beginners: Those looking to explore gym facilities and understand available options in a welcoming and accessible format.
-Health-Conscious Individuals: People interested in integrating regular exercise into their lifestyle. 
+- Fitness Enthusiasts: Individuals seeking structured fitness classes in yoga, weightlifting, and boxing.
+- Beginners: Those looking to explore gym facilities and understand available options in a welcoming and accessible format.
+- Health-Conscious Individuals: People interested in integrating regular exercise into their lifestyle. 
 
 ## User Stories
 
 ### Must-Have User Stories
-
 **User Story 1:**
 - As a user, I want an intuitive navigation menu so I can easily find the information I need.
 - Acceptance Criteria: A navigation bar is present on all pages, allowing users to access sections like "Home," "Classes," and "Contact" with ease.
@@ -27,7 +26,6 @@ Health-Conscious Individuals: People interested in integrating regular exercise 
 - Acceptance Criteria: Each class (e.g., yoga, weightlifting, boxing) has a dedicated page with descriptions and images.
 
 ### Should-Have User Stories
-
 **User Story 1:**
 - As a user, I want to receive confirmation after submitting a contact form to know my submission was successful.
 - Acceptance Criteria: The contact form is set to submit via FormDump, which redirects users to a thank-you page upon submission.
@@ -37,7 +35,6 @@ Health-Conscious Individuals: People interested in integrating regular exercise 
 - Acceptance Criteria: A testimonial section featuring user feedback is present on the homepage.
 
 ### Could-Have User Stories
-
 **User Story 1:** 
 - As a user, I would like a blog section with fitness tips to support my fitness journey.
 - Acceptance Criteria: A blog section includes regularly updated articles about fitness and wellness topics.
@@ -49,8 +46,43 @@ Health-Conscious Individuals: People interested in integrating regular exercise 
 ## Design Decisions
 
 ### Wireframes
-
 Wireframes were created for key pages (e.g., homepage, classes page, contact page) to ensure a user-centered design approach. The homepage showcases an engaging layout, with a prominent navigation bar and easy access to class options.
+
+**Home Page**
+- Home Page: Large Devices Wireframe
+
+![Home Page Large Devices](/assets/images/wireframes/home-page-large-screens.png)
+
+- Home Page: Small Devices Wireframe
+
+![Home Page Small Devices](/assets/images/wireframes/home-page-small-screens.png)
+
+**Classes Page**
+- Classes Page: Large Devices Wireframe
+
+![Classes Page Large Devices](/assets/images/wireframes/classes-page-large-screens.png)
+
+- Classes Page: Small Devices Wireframe
+
+![Classes Page Small Devices](/assets/images/wireframes/classes-page-small-screens.png)
+
+**Contact Page**
+- Contact Page: Large Devices Wireframe
+
+![Contact Page Large Devices](/assets/images/wireframes/contact-page-large-screens.png)
+
+- Contact Page: Small Devices Wireframe
+
+![Contact Page Small Devices](/assets/images/wireframes/contact-page-small-screens.png)
+
+**Sign Up Page**
+- Sign Up Page: Large Devices Wireframe
+
+![Sign Up Page Large Devices](/assets/images/wireframes/sign-up-large-screens.png)
+
+- Sign Up Page: Small Devices Wireframe
+
+![Sign Up Page Small Devices](/assets/images/wireframes/sign-up-page-small-screens.png)
 
 **Design Choices:**
 
@@ -59,68 +91,72 @@ Wireframes were created for key pages (e.g., homepage, classes page, contact pag
 - Fonts: A modern, sans-serif font was selected for readability and visual appeal.
 
 ### Accessibility Considerations
-Discuss how accessibility guidelines were adhered to, including colour contrast and alt text for images.  
-**Guidance:** Outline how you've incorporated accessibility into your design, ensuring that your project adheres to guidelines such as WCAG.
+Accessibility guidelines were followed to ensure that Nexus Fitness is usable for a wide audience, including those with disabilities.
+
+**Color Contrast:**
+- Text and background colors meet WCAG guidelines for contrast.
+**Alt Text:**
+- All images contain descriptive alt text to assist visually impaired users.
+**Semantic Markup:**
+- HTML5 tags like header, nav, main, and footer provide structural meaning, aiding screen readers.
 
 ## AI Tools Usage
 
-### DALL-E
-Describe how DALL-E was used for image generation, including examples of successes and challenges.  
-**Guidance:** Specifically mention how you used DALL-E for image generation and the impact this had on your design process.
+### Midjourney
+Midjourney was used to create images for the project, including images displaying gym facilities, and classes in action, with the intention of promoting a positive environment aimed at group oriented and individual fitness needs. The biggest challenge was using correct prompts to create high quality images that would not distract the user.
 
 ## Features Implementation
 
 ### Core Features (Must-Haves)
-- **Feature 1:** Description of the implemented feature.
-- **Feature 2:** Description of the implemented feature.
-
-(Include all must-have features)  
-**Guidance:** Use this section as you complete Phase 2: Must User Stories Implementation & Testing. Document all the must-have features you implemented, explaining how they align with the user stories and acceptance criteria.
+**Feature 1:**
+- Navigation Menu: A fixed navigation bar that is accessible on all pages, allowing users to easily access the main sections: "Home," "Classes," and "Contact."
+**Feature 2:**
+-Class Information Pages: Dedicated pages for each class (yoga, weightlifting, boxing) provide a description, benefits, and an image of the class environment.
+**Feature 3:**
+- Contact Form: A contact form on the "Contact" page allows users to submit inquiries, connected to FormDump for confirmation.
 
 ### Advanced Features (Should-Haves)
-- **Feature 1:** Description of the implemented feature.
-- **Feature 2:** Description of the implemented feature.
-
-(Include all should-have features)  
-**Guidance:** Include any advanced features you implemented during Phase 3: Should User Stories Implementation & Any Advanced Features. Explain how these features enhance user experience and their alignment with the acceptance criteria.
+**Feature 1:**
+- Testimonial Section: A carousel or fixed section on the homepage displaying user testimonials to build credibility and encourage engagement.
+**Feature 2:**
+- Thank-You Page for Form Submissions: After submitting the contact form, users are redirected to a thank-you page via FormDump, giving clear confirmation that their submission was received.
 
 ### Optional Features (Could-Haves)
-- **Feature 1:** Description of the implemented feature (if any).
-- **Feature 2:** Description of the implemented feature (if any).
-
-(Include any could-have features that were implemented or considered)  
-**Guidance:** If any could-have features were implemented, describe them here. This is an opportunity to showcase extra work done beyond the initial scope. But remember - keep it simple! Focus on the Must stories first. Could user story features are commonly earmarked for future project iterations.
+**Feature 1:**
+- Blog Section: A future enhancement planned to provide users with articles on fitness, wellness tips, and healthy lifestyle information.
+**Feature 2:**
 
 ## AI Tools Usage
 
 ### GitHub Copilot
-Describe how GitHub Copilot assisted in coding, including any challenges or adjustments needed.  
-**Guidance:** Reflect on how GitHub Copilot assisted in coding, particularly any challenges or adjustments that were needed to align with project goals.
+GitHub Copilot assisted in streamlining code by suggesting HTML and CSS structures for common elements, such as the navigation bar and form structure. Copilot provided helpful initial code suggestions, though adjustments were sometimes needed to align with accessibility standards.
 
 ## Testing and Validation
+Testing was conducted across various devices (desktop, tablet, mobile) and browsers (Chrome, Firefox, Safari). The layout remained consistent across screen sizes, confirming that responsive design was implemented effectively.
 
 ### Testing Results
-Summarize the results of testing across different devices and screen sizes.  
-Mention any issues found and how they were resolved.  
-**Guidance:** Summarize the results of your testing across various devices using tools like Chrome DevTools, as outlined in Phase 2. Mention any issues found and how they were resolved.
+**Issues Found and Resolved:**
+- Issue: Minor alignment issues in the navigation bar on smaller screens.
+- Solution: Adjusted CSS flex properties to ensure elements aligned properly.
 
 ### Validation
-Discuss the validation process for HTML and CSS using W3C and Jigsaw validators.  
-Include the results of the validation process.  
-**Guidance:** Document your use of W3C and Jigsaw validators to ensure your HTML and CSS meet web standards. Include any errors or warnings encountered and how they were resolved.
+- HTML: All HTML code passed the W3C Validator with no issues.
+- CSS: CSS code was validated through Jigsaw with no errors.
 
 ## AI Tools Usage
 
 ### GitHub Copilot
-Brief reflection on the effectiveness of using AI tools for debugging and validation.  
-**Guidance:** Reflect on how GitHub Copilot assisted with debugging and validation, particularly any issues it helped resolve.
+Copilot was beneficial in identifying syntax issues and suggesting minor corrections, helping to speed up the validation and debugging process.
 
 ## Deployment
 
 ### Deployment Process
-Briefly describe the deployment process to GitHub Pages or another cloud platform.  
-Mention any specific challenges encountered during deployment.  
-**Guidance:** Describe the steps you took to deploy your website during Phase 4: Final Testing, Debugging & Deployment, including any challenges encountered.
+The site was deployed on GitHub Pages. Deployment steps included:
+
+- Committing the final version to GitHub.
+- Enabling GitHub Pages and selecting the main branch as the source.
+- Testing the deployed site to ensure functionality matched the development environment.
+- Challenges: Initial deployment issues with images not appearing on the website were resolved by double-checking the image file paths.
 
 ## AI Tools Usage
 
@@ -131,19 +167,25 @@ Describe the role AI tools played in the deployment process, including any benef
 ## Reflection on Development Process
 
 ### Successes
-Effective use of AI tools, including GitHub Copilot and DALL-E, and how they contributed to the development process.
+**Responsiveness:**
+- Achieved a consistent layout across devices.
+**User Experience:**
+- Positive feedback from initial testers on the site’s simplicity and ease of navigation.
 
 ### Challenges
-Describe any challenges faced when integrating AI-generated content and how they were addressed.
+**Commit Management:**
+- Ensuring commit messages were detailed enough to reflect specific changes was challenging initially but improved over time.
 
 ### Final Thoughts
-Provide any additional insights gained during the project and thoughts on the overall process.  
-**Guidance:** Begin drafting reflections during Phase 1 and update throughout the project. Finalize this section after Phase 4. Highlight successes and challenges, particularly regarding the use of AI tools, and provide overall insights into the project.
+This project provided valuable experience in developing an accessible, responsive website, from design to deployment. Working with tools like GitHub Copilot for coding assistance and DALL-E for visuals added efficiency and creativity to the development process.
 
 ## Code Attribution
-Properly attribute any external code sources used in the project (excluding GitHub Copilot-generated code).  
-**Guidance:** Document any external code sources used throughout the entire project, especially during Phase 2 and Phase 3. Exclude GitHub Copilot-generated code from attribution.
+**CSS Flexbox & CSS Grid Guides:** 
+- Flexbox layout patterns referenced from CSS-Tricks.
+
+**Responsive Design:**
+- Basic responsive design concepts referenced from W3Schools.
 
 ## Future Improvements
-Briefly discuss potential future improvements or features that could be added to the project.  
-**Guidance:** Reflect on potential enhancements that could be made to the project after Phase 4: Final Testing, Debugging & Deployment. These could be Could user story features you didn’t have time to implement or improvements based on testing feedback.
+**Blog Section:** 
+- A blog with articles on fitness and wellness tips to engage users and support SEO efforts.
