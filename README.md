@@ -136,12 +136,52 @@ Testing was conducted across various devices (desktop, tablet, mobile) and brows
 
 ### Testing Results
 **Issues Found and Resolved:**
+**Home Page**
+- Error: Unclosed anchor element
+- Cause: An anchor element was left unclosed, leading to rendering issues.
+- Resolution: The missing closing anchor tag was added to properly close the anchor element.
+
+- Error: Stray end tag button
+- Cause: A stray button end tag was incorrectly placed.
+- Resolution: The misplaced button was removed, and the structure was corrected.
+
+- Error: End tag td seen, but there were open elements
+- Cause: The td element had an unclosed child or sibling element.
+- Resolution: All open elements within the td were properly closed.
+
+**Classes Page**
+- Error: The button element must not appear as a descendant of the anchor element
+- Cause: A button element was incorrectly nested within an anchor element, violating HTML specifications.
+- Resolution: The button was replaced with a styled anchor element to maintain functionality while adhering to HTML standards.
+
+**Contact Page**
+- Warning: Section lacks heading (contact-details)
+- Cause: The contact-details section did not have a heading, reducing semantic clarity.
+- Resolution: A descriptive h2 heading was added to the contact-details section to improve accessibility and structure.
+
+**Sign-Up Page**
+- Error: First child option of a select element must have an empty value
+- Cause: The default option in the select element lacked an empty value attribute, which is required for accessibility and validation.
+- Resolution: A placeholder option label was added with an empty value attribute, ensuring compatibility and proper behavior.
+
+**CSS**
 - Issue: Minor alignment issues in the navigation bar on smaller screens.
 - Solution: Adjusted CSS flex properties to ensure elements aligned properly.
 
 ### Validation
 - HTML: All HTML code passed the W3C Validator with no issues.
+
+![Home Page Validation](/assets/images/testing/index-page-test.PNG)
+
+![Classes Page Validation](/assets/images/testing/classes-page-test.PNG)
+
+![Contact Page Validation](/assets/images/testing/contact-page-test.PNG)
+
+![Sign Up Page Validation](/assets/images/testing/signup-page-test.PNG)
+
 - CSS: CSS code was validated through Jigsaw with no errors.
+
+![CSS Validation](/assets/images/testing/css-test.PNG)
 
 ## AI Tools Usage
 
