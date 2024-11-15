@@ -2,6 +2,8 @@
 
 ![Nexus Fitness Multi-View](/assets/images/testing/home-multi-viewport.PNG)
 
+Here's a link to the live version of my [project.](https://merrick101.github.io/nexus-fitness/index.html)
+
 ## Overview
 
 ### Purpose

@@ -835,6 +835,10 @@ form label {
   color: #e0e0e0;
 }
 
+input[type="date"]::-webkit-calendar-picker-indicator {
+  filter: invert(100%); /* Changes black to white */
+}
+
 .book-class-btn {
   width: 120px;
   padding: 0.5rem 1rem;
